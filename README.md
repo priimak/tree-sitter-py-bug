@@ -2,6 +2,9 @@ A Bug?
 ======
 
 ```shell
+git clone https://github.com/priimak/tree-sitter-py-bug.git
+cd tree-sitter-py-bug/
+
 uv run src/tree_sitter_py_bug/main.py 
 ```
 
