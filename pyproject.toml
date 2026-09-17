@@ -1,0 +1,20 @@
+[project]
+name = "tree-sitter-py-bug"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Dmitri Priimak", email = "priimak@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "tree-sitter==0.26.0",
+    "tree-sitter-python>=0.25.2",
+]
+
+[project.scripts]
+tree-sitter-py-bug = "tree_sitter_py_bug:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
